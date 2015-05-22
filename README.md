@@ -87,7 +87,7 @@ Your `solved?` method should accept a board in whatever form you're using and re
 ##### Method: `pretty_board`
 `pretty_board` should take in a board in some form and a return a string that's well formatted for output to the screen. No `puts` here either!
   
-Your `print_board` method might yield something like this when it's printed.
+Your `pretty_board` method might yield something like this when it's printed.
 
 ```
 1 - 5 8 - 2 - - -

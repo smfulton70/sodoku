@@ -7,19 +7,23 @@ end
 
 #Returns a boolean indicating whether
 #or not the provided board is solved.
-#The board will be in whatever form
-# you have chosen to use.
+#The provided board will be in whatever
+#form `solve` returns.
 def solved?(board)
 end
 
 #Takes in a board in some form and
 #returns a string that's well formatted
 #for output to the screen. No `puts` here!
+#The provided board will be in whatever
+#form `solve` returns.
 def pretty_board(board)
 end
 
 #Takes in a board in some form and
 #returns a string in the same format
 #as you see in the puzzle file.
+#The provided board will be in whatever
+#form `solve` returns.
 def board_to_string(board)
 end

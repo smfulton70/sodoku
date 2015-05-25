@@ -120,7 +120,7 @@ Puzzles 6 - 10 can be solved using logic alone but require more than just identi
 
 The `solve` method should still give up if it gets stuck.
 
-### Release 2:  Eduated Guessing
+### Release 2:  Educated Guessing
 
 **Improve your Sudoku solver to solve all of the puzzles.**
 

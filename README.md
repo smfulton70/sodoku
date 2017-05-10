@@ -56,6 +56,7 @@ The first five puzzles in the file `sudoku_puzzles.txt` can be solved with basic
 
 - For this release, your code should give up if it gets stuck
 - Be sure to write the `pretty_board` method, which takes your board and returns a string that is well formatted for display to the screen. For example:
+
 ```
 1 - 5 8 - 2 - - -
 - 9 - - 7 6 4 - 5

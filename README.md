@@ -25,7 +25,7 @@ Failing to follow the following restrictions will result in an invalid submissio
 
 To accomplish this, you will be writing methods that accept arguments as inputs and return useful values representing their work. You should be writing many methods, and using them together to build up your solver.
 
-## Testing
+### Testing
 Good news: you will be creating many small methods, and small methods are easier to test.
 
 The number of tests you write is completely up to you. Testing is for _you_, and will help you develop code. You must balance testing with the need to write code and make progress on the solution, but remember that being able to easily run tests that prove your code is working correctly can help you move faster.

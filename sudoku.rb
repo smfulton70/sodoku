@@ -30,12 +30,6 @@ end
   string.split('').map(&:to_i)
  end
 
-# Driver code
-
-test_string = "1-58-2----9--764-52--4--819-19--73-6762-83-9-----61-5---76---3-43--2-5-16--3-89--"
-
-test_array = convert_to_array(test_string)
-
 def retrieve_row_from_9x9_table(table_array, row_number)
   row = []
   table_array.each_index do |i|
@@ -45,6 +39,12 @@ def retrieve_row_from_9x9_table(table_array, row_number)
   end
   row
 end
+
+# Driver code
+
+test_string = "1-58-2----9--764-52--4--819-19--73-6762-83-9-----61-5---76---3-43--2-5-16--3-89--"
+
+test_array = convert_to_array(test_string)
 
 row_0 = retrieve_row_from_9x9_table(test_array, 0)
 # row_1 = retrieve_row_from_9x9_table(test_array, 1)

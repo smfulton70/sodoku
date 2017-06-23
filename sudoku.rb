@@ -4,6 +4,9 @@
 # your solver has tried to solve it.
 # How you represent your board is up to you!
 def solve(board_string)
+
+	convert_to_array(board_string)
+
 end
 
 # Returns a boolean indicating whether
@@ -20,3 +23,11 @@ end
 # form `solve` returns.
 def pretty_board(board)
 end
+
+# Helper Methods
+
+ def convert_to_array(string)
+ 	string.split('').map(&:to_i)
+ end
+
+

@@ -13,7 +13,7 @@ def solve(board_string)
 	# ______leave only possible numbers to solve the puzzle _______
 	
 	until solved?(final_array)
-		guess_array.each do |guesses|
+		final_array.each do |guesses|
 			#removes a guesses from the guest_hash if number is in a cell's current row
 			r_list = row_method(guesses, final_array)
 				guesses.reject! {|guess| r_list.include?(guess)}

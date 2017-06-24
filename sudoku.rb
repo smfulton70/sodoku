@@ -72,9 +72,41 @@ def retrieve_column_from_9x9_table(table_array, column_number)
   column
 end
 
+#Added by Scott 6/24/17
+def box_creation(array)	
+box = Array.new(9) {Array.new}
+	boxes = []
+	counter = 0
+	array_index = 0
+		while counter < 9
+		  	box[counter][0] = array[array_index]
+		  	box[counter][1] = array[array_index+1]
+		  	box[counter][2] = array[array_index+2]
+		  	box[counter][3] = array[array_index+9]
+		  	box[counter][4] = array[array_index+10]
+		  	box[counter][5] = array[array_index+11]
+		  	box[counter][6] = array[array_index+18]
+		  	box[counter][7] = array[array_index+19]
+		  	box[counter][8] = array[array_index+20]
+		    	boxes << box[counter]
+		    	counter += 1
+		    	if counter == 3 || counter == 6
+		      		array_index += 21
+		    	else
+		      		array_index += 3
+		    	end
+	  	end
+	boxes
+end
+#End Scott's addition
+
 # Driver code
 
 test_string = "1-58-2----9--764-52--4--819-19--73-6762-83-9-----61-5---76---3-43--2-5-16--3-89--"
+
+#Added by Scott 6/24/17
+box_creation(test_string)
+#End Scott's addition
 
 test_array = convert_to_array(test_string)
 
